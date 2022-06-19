@@ -96,6 +96,20 @@ public class Professor extends Pessoa {
         this.materia = materia;
     }
     
+    //Construtor
+
+    public Professor(String area_pesquisa, String graduacao, int data_graduacao, String mestrado, int data_mestrado, String doutorado, int data_doutorado, String materia, String nome, int codigo, float salario) {
+        super(nome, codigo, salario);
+        this.area_pesquisa = area_pesquisa;
+        this.graduacao = graduacao;
+        this.data_graduacao = data_graduacao;
+        this.mestrado = mestrado;
+        this.data_mestrado = data_mestrado;
+        this.doutorado = doutorado;
+        this.data_doutorado = data_doutorado;
+        this.materia = materia;
+    }
+    
     
 }
 

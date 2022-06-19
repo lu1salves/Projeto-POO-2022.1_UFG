@@ -37,5 +37,14 @@ public class Pessoa {
     public void setSalario(float salario) {
         this.salario = salario;
     }
+    
+    //Construtor 
+
+    public Pessoa(String nome, int codigo, float salario) {
+        this.nome = nome;
+        this.codigo = codigo;
+        this.salario = salario;
+    }
+    
    
 }
