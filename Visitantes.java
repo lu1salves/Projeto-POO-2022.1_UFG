@@ -31,8 +31,6 @@ public class Aluno extends Pessoa{
         this.instituicao = instituicao;
     }
 
-    
-
     public Aluno(String nome, int codigo, int data_acesso, boolean instituicao) {
         super(nome);
         this.data_acesso = data_acesso;
