@@ -11,7 +11,7 @@ package poo2022_1.sistema_academico;
  * 
  */
 
-public class Aluno extends Pessoa{
+public class Visitantes extends Pessoa{
     public int data_acesso;
     public boolean instituicao;
 
