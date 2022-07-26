@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+    background-color: #FFC14D;
+    vertical-align: center;
+}
+
+/*cadastar*/
+.titulo {
+    color:black;
+    text-align: center;
+    padding: 220px;
+    font-size: 70px;
+}
+
+main {
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+div #logar {
+    margin: 100px;
+    color: black;
+    background-color: rgb(189, 186, 186);
+    border-color: black;
+    padding: 30px 100px;
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+div #cadastrar {
+    padding: 30px 100px;
+    color: black;
+    border-color: black;
+    background-color: rgb(189, 186, 186);
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
