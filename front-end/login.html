@@ -5,16 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- adicionar favicon -->
-    <link rel="stylesheet" href="login_style.css">
-    <title>PequiGoiás</title>
+    <link rel="stylesheet" href="estilo/login_style.css">
+    <title>Login</title>
 </head>
 <body>
-    <h1 class="titulo">
-        Pequi_Goiás - Sistema Acadêmico
-    </h1>
+    <header>
+        <h1 class="titulo">
+            Pequi_Goiás - Sistema Acadêmico
+        </h1>
+    </header>
+    <div id="img">
+        <img src="imagem/picwish.png" alt="pequi">
+    </div>
     <form action="POST">
-        <input class="formulario" placeholder="E-mail" type="email" autocomplete="email"/>
-        <input class="formulario"placeholder="senha" type="password"/>
+        <div>
+            <input id="email" class="formulario" placeholder="E-mail" type="email" autocomplete="email"/>
+        </div>
+        <div>
+            <input id="senha" placeholder="Senha" type="password"/>
+        </div>
     </form>
+    <div id="logar">
+        <button>Logar</button>
+    </div>
+    <footer>
+        <p>
+            <a href="esqueceu.html">Esqueci minha senha</a>
+        </p>
+    </footer>
 </body>
 </html>
