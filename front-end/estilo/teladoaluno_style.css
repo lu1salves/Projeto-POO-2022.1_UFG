@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*CABEÇALHO*/
+header {
+    display: flex;
+    border: 1px solid black;
+    height: 150px;
+}
+
+header > p {
+    padding: 10px;
+    border: 1px solid black;
+    max-height: 40px;
+    margin: 15px 20px 0px 50px;
+}
+
+header > h1 {
+    padding: 20px;
+}
+
+#boxuser {
+    margin-left: 700px;
+}
+
+/*PRINCIPAL*/
+menu {  
+    border: 1px solid black;
+    width: 300px;
+}
+
+li {
+    padding: 15px;
+}
+
+main {
+    display: flex;
+}
+
+img {
+    padding: 200px;
+}
+
+section {
+    border: 1px solid black;
+    width: 1550px;
+    height: 825px
+}
+
+section > div#botoẽs {
+    display: flex;
+}
+
+section > div#principal {
+    display: flex;
+}
+
+#informaçoes {
+    padding: 100px;
+}
+
+div > p {
+    padding: 16px;
+}
+
+button {
+    padding: 30px;
+    margin: 100px;
+}

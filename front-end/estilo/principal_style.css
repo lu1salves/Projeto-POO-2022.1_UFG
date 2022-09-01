@@ -9,7 +9,7 @@ body {
 .titulo {
     color:black;
     text-align: center;
-    padding: 220px;
+    padding: 220px 220px 0px 220px;
     font-size: 70px;
 }
 
@@ -21,27 +21,20 @@ main {
     justify-content: center;
 }
 
-div #logar {
-    margin: 100px;
-    color: black;
-    background-color: rgb(189, 186, 186);
-    border-color: black;
-    padding: 30px 100px;
-    font-size: medium;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 
 a {
     text-decoration: none;
     color: black;
 }
 
-div #cadastrar {
+button.but {
+    margin: 100px;
+    min-width: 300px; 
     padding: 30px 100px;
-    color: black;
-    border-color: black;
-    background-color: rgb(189, 186, 186);
     font-size: medium;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-decoration: none;
+}
+
+div#img {
+    text-align: center;
 }

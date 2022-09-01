@@ -5,12 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- adicionar favicon -->
-    <link rel="stylesheet" href="login_style.css">
+    <link rel="stylesheet" href="estilo/cadastrar_style.css">
     <title>PequiGoiás</title>
 </head>
 <body>
-    <h1 class="titulo">
-        Pequi_Goiás - Sistema Acadêmico
-    </h1>
+    <header>
+        <h1>Cadastro</h1>
+    </header>
+    <form action="POST">
+        <div>
+            <input class="form" id="nome" placeholder="Nome" type="name"/>
+        </div>
+        <div>
+            <input class="form" id="email" class="formulario" placeholder="E-mail" type="email" autocomplete="email"/>
+        </div>
+        <div>
+            <input class="form" id="senha" placeholder="Senha" type="password"/>
+        </div>
+        <div>
+            <input class="form" id="confirmesenha" placeholder="Confirme sua senha" type="password"/>
+        </div>
+        <div id="cadastrar">
+            <button>Cadastrar</button>
+        </div>
+    </form>
 </body>
 </html>
